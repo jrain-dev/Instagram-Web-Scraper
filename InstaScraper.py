@@ -30,7 +30,7 @@ def searchScraper(keywords):
     password.clear()
 
     username.send_keys("jrdnsgallery")
-    password.send_keys("fe9k0*jA5@&ygnr9tJJB")
+    password.send_keys("--instagram password--")
 
     logIn = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[type='submit']"))).click()
     try:
